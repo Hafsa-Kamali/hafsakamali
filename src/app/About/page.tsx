@@ -76,7 +76,7 @@ const AboutMe = () => {
 
       <div className="grid grid-cols-2 gap-4 mb-6 z-[20]">
         {aboutMe.info.map((item: InfoItem, index: number) => (
-          <div key={index} className="bg-transparent border border-white border-2 p-4 rounded-md shadow-lg  shadow-black  hover:scale-105">
+          <div key={index} className="bg-transparent border-2 border-white p-4 rounded-md shadow-lg shadow-black hover:scale-105">
             <h2 className="font-semibold text-[#8d59fe]">{item.FieldName}</h2>
             <p className="text-white text-opacity-80">{item.FieldValue}</p>
           </div>
@@ -89,7 +89,7 @@ const AboutMe = () => {
       <p className="text-white mb-4 w-[90%] text-xl">{aboutMe.education.description}</p>
       <ul className="space-y-4 mb-6">
         {aboutMe.education.items.map((item: EducationItem, index: number) => (
-          <li key={index} className="bg-transparent border border-white border-2 p-4 rounded-md shadow-lg shadow-black z-[20] hover:scale-105 ">
+          <li key={index} className="bg-transparent border-2 border-white p-4 rounded-md shadow-lg shadow-black z-[20] hover:scale-105 ">
             <h3 className="font-semibold text-[#8d59fe]">{item.institution}</h3>
             <p className="text-white text-opacity-85">{item.degree}</p>
             <p className="text-black">{item.duration}</p>
@@ -105,7 +105,7 @@ const AboutMe = () => {
       <div className='col-span-4'>
 <div className='grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-3 gap-[1rem] items-center mt-[2rem]'>
       <div
-    className='p-6 border border-white border-2 duration-300 transition-all cursor-pointer  hover:scale-105 text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80 z-20'>
+    className='p-6 border-2 border-white duration-300 transition-all cursor-pointer  hover:scale-105 text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80 z-20'>
       <Image 
       src = "/ameen alam.png"
       alt = "Sir Ameen Alam"
@@ -120,7 +120,7 @@ const AboutMe = () => {
    <p className='mt-[1rem] text-[15px] text-white text-opacity-85 rounded-lg p-2'>Honoring our Dean of Faculty, Sir Ameen Alam, whose exceptional leadership and innovative IT initiatives have illuminated the path to excellence. His wisdom, integrity, and unwavering dedication to advancing technology inspire us to achieve greatness. With deep respect and gratitude, we celebrate his outstanding contributions to our academic community and the world of IT.</p>
         </div>
         <div
-    className='p-6 border border-white border-2 duration-300 transition-all cursor-pointer text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80 hover:scale-105'>
+    className='p-6 border-2 border-white duration-300 transition-all cursor-pointer text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80 hover:scale-105'>
       <Image 
       src = "/Ziakhan.png"
       alt = "Sir Zia Khan"
@@ -135,7 +135,7 @@ const AboutMe = () => {
    <p className='mt-[1rem] text-[13px] text-white text-opacity-85 rounded-lg p-2'>Honoring Sir Zia Khan, our esteemed Chief Operating Officer and Developer of the Faculty of IT Initiative. His groundbreaking vision and dedication to innovation have propelled our IT initiatives to new heights. Through his leadership, integrity, and relentless pursuit of excellence, he has transformed our academic landscape and inspired countless minds. With immense respect and gratitude, we celebrate his remarkable contributions and enduring legacy in the world of IT.</p>
         </div>
         <div
-    className='p-6 border border-white border-2 duration-300 transition-all cursor-pointer  hover:scale-105   hover:shadow-white shadow-lg text-center rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80'>
+    className='p-6 border-2 border-white duration-300 transition-all cursor-pointer  hover:scale-105   hover:shadow-white shadow-lg text-center rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80'>
       <Image 
       src = "/Daniyalnagori.jpg"
       alt = "Sir Daniyal Nagori"
@@ -147,10 +147,10 @@ const AboutMe = () => {
         <h2 className='mt-[1rem] text-white text-opacity-85 rounded-lg p-2 bg-black bg-opacity-75 hover:bg-white hover:text-black'>
          Ceo of faculty Of IT Initiative
         </h2>
-   <p className='mt-[1rem] text-[15px] text-white text-opacity-85 rounded-lg p-2'>Honoring Sir Daniyal Nagori, the visionary CEO of the Faculty of IT Initiative. His unparalleled leadership and commitment to innovation have been the driving force behind our technological advancements. Sir Daniyal's dedication to excellence and passion for IT have inspired us all to reach new heights. With deep respect and gratitude, we celebrate his remarkable achievements and lasting impact on the world of technology.</p>
+   <p className='mt-[1rem] text-[15px] text-white text-opacity-85 rounded-lg p-2'>Honoring Sir Daniyal Nagori, the visionary CEO of the Faculty of IT Initiative. His unparalleled leadership and commitment to innovation have been the driving force behind our technological advancements. Sir Daniyal&apos;s dedication to excellence and passion for IT have inspired us all to reach new heights. With deep respect and gratitude, we celebrate his remarkable achievements and lasting impact on the world of technology.</p>
         </div>
         <div
-    className='p-6 border border-white border-2 duration-300 transition-all cursor-pointer  hover:scale-105 text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80'>
+    className='p-6 border-2 border-white duration-300 transition-all cursor-pointer  hover:scale-105 text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80'>
       <Image 
       src = "/Sir anas.jpg"
       alt = "Sir Anas Seth"
@@ -166,7 +166,7 @@ const AboutMe = () => {
 
         </div>
         <div
-    className='p-6 border border-white border-2 duration-300 transition-all cursor-pointer  hover:scale-105 text-center  hover:shadow-white shadow-lgrounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80'>
+    className='p-6 border-2 border-white duration-300 transition-all cursor-pointer  hover:scale-105 text-center  hover:shadow-white shadow-lg rounded-lg bg-gradient-to-l from-[#3c087e66] via-[#bf97ff70] to-[#712fff3d] shadow-[#bf97ff70]-inset opacity-80'>
       <Image 
       src = "/ubaid sir.jpg"
       alt = "Sir Ubaid Ur Rehman"
@@ -187,5 +187,4 @@ const AboutMe = () => {
     </div>
   );
 };
-
 export default AboutMe;

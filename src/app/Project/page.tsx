@@ -75,7 +75,7 @@ className="text-gray-100 body-font bg-transparent py-24 relative z-[20]">
 Delve into a showcase of innovation and expertise through my diverse projects.
  Each venture is a testament to cutting-edge technology, meticulous craftsmanship, and a commitment to excellence. 
  From dynamic web applications to captivating visual designs, my portfolio demonstrates a blend of creativity and precision. Explore the brilliance of projects that not only meet but exceed expectations, turning visions into reality.
- Let's embark on a journey of technological marvels together!</motion.p>
+ Let&apos;s embark on a journey of technological marvels together!</motion.p>
  <p
  className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-cyan-400 mt-[1rem] mb-[3rem] items-center justify-center ml-auto mr-auto border-white border-2 w-fit h-auto hover:scale-105 py-3 px-4 rounded-lg shadow-black shadow-lg  relative z-[20]">
    Here are my some amazing projects </p>
