@@ -13,7 +13,7 @@ const HeroContent = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className='flex flex-col md:flex-row items-center justify-center px-20 mt-16 w-full z-[20]'
+            className='flex flex-col md:flex-row items-center justify-center px-20 mt-12 w-full z-[20]'
         >
             <div className='h-full w-full flex flex-col gap-7 justify-center m-auto text-start px-6'>
             <motion.div
@@ -55,7 +55,9 @@ const HeroContent = () => {
                  TypeScript and React. I am passionate about creating user-friendly and visually appealing websites that meet the needs of my clients. I am also highly skilled in graphic design, video editing, and animation.
                  I am always looking for new challenges to improve my skills. Check out my projects and skills.
                 </motion.p>
-                <div className="flex justify-center md:justify-start space-x-4 mt-4">
+                <motion.div
+                  variants={slideInFromLeft(1)}
+                className="flex justify-center md:justify-start space-x-4 mt-4">
          <button
          type='button'
             className="py-2 px-4 md:py-3 md:px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[160px] md:max-w-[200px] bg-gradient-to-r from-purple-500 to-cyan-500"
@@ -70,7 +72,7 @@ const HeroContent = () => {
            View my Projects
            </Link>
        </button>
-        </div>
+        </motion.div>
             </div>
 
             <motion.div

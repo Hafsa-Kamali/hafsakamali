@@ -1,30 +1,18 @@
-// components/BackgroundMusicWithControl.tsx
-"use client";
-import { useState } from 'react';
-import Howl from 'react-howler';
+import React from 'react';
 
-const BackgroundMusicWithControl = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
+interface PlayPauseButtonProps {
+  isPlaying: boolean;
+  togglePlayPause: () => void;
+}
 
-  const togglePlay = () => {
-    setIsPlaying(!isPlaying);
-  };
-
+const  BackgroundMusicControl: React.FC<PlayPauseButtonProps> = ({ isPlaying, togglePlayPause }) => {
   return (
-    <div>
-      <Howl
-        src="/music/background.mp3"
-        playing={isPlaying}
-        loop={true}
-        volume={0.5}
-        
-      />
-    
-      <button onClick={togglePlay} className='text-white button-primary px-2 py-1 mt-[-]'>
-        {isPlaying ? 'Pause' : 'Play'} Background Music
-      </button>
-    </div>
+    <button
+    type='button'
+    onClick={togglePlayPause}>
+      {isPlaying ? 'Pause' : 'Play'}
+    </button>
   );
 };
 
-export default BackgroundMusicWithControl;
+export default BackgroundMusicControl;

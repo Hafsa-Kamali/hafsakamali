@@ -1,35 +1,38 @@
+import React, { useState, useRef, useEffect } from 'react';
 
-"use client"; 
-import { useEffect, useState } from 'react';
-import Howl from 'react-howler';
+interface AudioPlayerProps {
+  src: string;
+}
 
-const BackgroundMusic = () => {
+const AudioPlayer: React.FC<AudioPlayerProps> = ({ src }) => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
-  // Autoplay control: 
   useEffect(() => {
-    const handleUserInteraction = () => {
-      setIsPlaying(true);
-      document.removeEventListener('click', handleUserInteraction);
-    };
+    const audio = audioRef.current;
+    if (audio) {
+      audio.addEventListener('ended', () => {
+        setIsPlaying(false);
+      });
+    }
+  }, [audioRef]);
 
-    // Wait for the user to click or interact to start playing
-    document.addEventListener('click', handleUserInteraction);
-
-    return () => {
-      document.removeEventListener('click', handleUserInteraction);
-    };
-  }, []);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const togglePlayPause = () =>{
+    const audio = audioRef.current;
+    if (audio) {
+      if (isPlaying) {
+        audio.pause();
+      } else {
+        audio.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
 
   return (
-    <Howl
-      src="/music/song.mp3"  
-      playing={isPlaying}
-      loop={true}
-      volume={0.5} 
-    />
-    
+    <audio ref={audioRef} src={src} autoPlay loop />
   );
 };
 
-export default BackgroundMusic;
+export default AudioPlayer;
