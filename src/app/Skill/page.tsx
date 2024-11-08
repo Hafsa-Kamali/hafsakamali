@@ -23,14 +23,14 @@ const Skills = () => {
                 My Skills
               </h1>
               <h1 className="mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-white text-[27px] md:text-[30px] lg:text-[30px] xl:text-[45px]">
-                Let's Explore Popular
+                Let&apos;s Explore Popular
                 <span className="text-transparent text-5xl font-serif md:text-8xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                   Skills
                 </span><br />
                 & Experience 
               </h1>
               <p className="text-[18px] text-white opacity-85 mt-[1rem] w-[98%]">
-              Unleash the potential of exceptional skills honed to perfection! With a mastery in frontend development, content creation, graphic design, and more, every project is a testament to innovation and excellence. Committed to delivering on time, with unmatched quality and 24/7 support, your success is our mission. Let’s turn your ideas into reality!"As a certified web developer with expertise in HTML, CSS, JavaScript, TypeScript, and Next.js, I craft dynamic, responsive, and visually engaging websites. My proficiency in modern frameworks like React and Tailwind CSS, combined with a deep understanding of front-end development, enables me to deliver seamless user experiences. With a passion for innovative design and optimized performance, I am committed to building high-quality web solutions that meet the evolving demands of today's digital landscape."
+              Unleash the potential of exceptional skills honed to perfection! With a mastery in frontend development, content creation, graphic design, and more, every project is a testament to innovation and excellence. Committed to delivering on time, with unmatched quality and 24/7 support, your success is our mission. Let’s turn your ideas into reality!&quot;As a certified web developer with expertise in HTML, CSS, JavaScript, TypeScript, and Next.js, I craft dynamic, responsive, and visually engaging websites. My proficiency in modern frameworks like React and Tailwind CSS, combined with a deep understanding of front-end development, enables me to deliver seamless user experiences. With a passion for innovative design and optimized performance, I am committed to building high-quality web solutions that meet the evolving demands of today&apos;s digital landscape.&quot;
               </p>
               </motion.div> 
 <motion.div

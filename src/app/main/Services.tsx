@@ -22,8 +22,8 @@ const Services = () => {
  <motion.div
    variants={slideInFromRight(0.8)}
  >
-                <h1  className="mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-center text-transparent text-6xl font-serif md:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500" >"What can i do for clients ?"</h1>
-      <h2 className="mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] md:mr-[0.6rem] text-center text-4xl md:text-4xl text-white">"Creative Services"</h2>
+                <h1  className="mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-center text-transparent text-6xl font-serif md:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500" >&quot;What can i do for clients ?&ldquo;</h1>
+      <h2 className="mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] md:mr-[0.6rem] text-center text-4xl md:text-4xl text-white">&quot;Creative Services&quot;</h2>
       </motion.div>
       <motion.div
       variants={slideInFromLeft(1)}

@@ -23,10 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#030014]  overflow-y-scroll overflow-x-hidden`}>
-        <StarCanvas />
+       
         <NavMobile showNav={showNav} closeNav={() => setShowNav(false)} />
         <Navbar openNav={() => setShowNav(true)} />
-        
+        <StarCanvas />
         {children}
       <Footer />
       </body>

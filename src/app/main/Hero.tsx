@@ -20,7 +20,7 @@ const Hero = () => {
      </video>
      
     </div>
-     <div className='relative flex flex-col h-full w-[90%] mt-28 md:mt-36'>
+     <div className='relative flex flex-col mt-28 md:mt-36'>
        <HeroContent />
        </div>
  </main>

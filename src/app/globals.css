@@ -17,7 +17,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  pointer-events: auto;
+  -webkit-text-size-adjust: 200px;
+  text-size-adjust: 200%;
 
 }
 .Welcome-box {
@@ -29,12 +30,10 @@
   border-radius: 32px;
   box-shadow: inset 0 -7px 11px hsla(273, 95%, 57%, 0.122);
   display: flex;
-  padding:0.2rem;
   position: relative;
   width: -moz-max-content;
   width: max-content;
   transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
-  pointer-events: auto;
 }
 
 .button-primary {
