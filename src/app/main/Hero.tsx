@@ -14,7 +14,7 @@ const Hero = () => {
        autoPlay
        muted
        loop
-       className='rotate-0 absolute top-[5px] h-[930px] w-full left-0 z-[1] object-cover'
+       className='rotate-0 absolute top-[4px] h-[900px] w-full left-0 z-[1] object-cover'
      >
       <source src='/stargalaxy.webm' type='video/webm' />
      </video>
