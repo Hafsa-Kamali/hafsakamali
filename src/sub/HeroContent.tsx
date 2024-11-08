@@ -18,12 +18,13 @@ const HeroContent = () => {
             <div className='h-full w-full flex flex-col gap-7 justify-center ml-[8rem] text-start px-6'>
                 <motion.div
                     variants={slideInFromTop}
-                   style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}
-                    className='Welcome-box py-[8rem] px-[10rem] border border-[#7042f88b] border-2  opacity-[0.9]'
+                   
+                    className='Welcome-box py-[4px] px-[16px] border-[#7042f88b] border opacity-[0.9]'
                 >
                     <SparklesIcon 
-                    style = {{fill: 'purple'}} className='text-violet-500 mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[13px]'>
+                    style = {{fill: '#b49bff'}} className=' mr-[10px] h-5 w-5' />
+                    <h1 
+                    className='Welcome-text text-[13px] '>
                         Hafsa Kamali Portfolio
                     </h1>
                 </motion.div>
@@ -40,7 +41,7 @@ const HeroContent = () => {
                        
                     </span>
                     <span className="text-white text-4xl md:text-5xl font-semibold">
-            Hello, I'm
+            Hello, I&apos;m
             <span className="text-transparent text-6xl font-serif md:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}Hafsa Kamali{" "}
             </span>
@@ -52,7 +53,7 @@ const HeroContent = () => {
                 <motion.p
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px] gap-6'
-                > I'm a Full Stack Web Developer with experience in websites and many programming languages like HTML, CSS, JavaScript, Next.js,
+                > I&apos;m a Full Stack Web Developer with experience in websites and many programming languages like HTML, CSS, JavaScript, Next.js,
                  TypeScript and React. I am passionate about creating user-friendly and visually appealing websites that meet the needs of my clients. I am also highly skilled in graphic design, video editing, and animation.
                  I am always looking for new challenges to improve my skills. Check out my projects and skills.
                 </motion.p>
@@ -90,5 +91,4 @@ const HeroContent = () => {
         </motion.div>
     )
 }
-
 export default HeroContent
