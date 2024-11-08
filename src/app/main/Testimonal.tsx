@@ -12,7 +12,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   
   {
-    image: '/johndoe.png',
+    image: '/johndoe.PNG',
     quote: '“Hafsa’s attention to detail and creative approach brought our vision to life in ways we never imagined. Truly an exceptional experience!”',
     name: 'John Doe',
     role: 'CEO, Tech Innovators',
@@ -24,25 +24,25 @@ const testimonials: Testimonial[] = [
     role: 'Founder, StartUp Hub',
   },
   {
-    image: '/michaelsmith.png',
+    image: '/michaelsmith.PNG',
     quote: '“From concept to completion, Hafsa demonstrated her expertise in web development and graphic design. She made the entire process seamless.”',
     name: 'Michael Smith',
     role: 'Creative Director, DesignWorks',
   },
   {
-    image: '/Sarah Williams.png',
+    image: '/Sarah Williams.PNG',
     quote: '“Hafsa transformed our outdated site into a modern, user-friendly platform. Her skills in Next.js and TypeScript are top-notch!”',
     name: 'Sarah Williams',
     role: 'Product Manager, Webify',
   },
   {
-    image: '/Davidlee.png',
+    image: '/Davidlee.PNG',
     quote: '“I was impressed by Hafsa’s ability to blend aesthetics with functionality. Her work on our e-commerce site exceeded our expectations.”',
     name: 'David Lee',
     role: 'Owner, Boutique Online',
   },
   {
-    image: '/Ninapatel.png',
+    image: '/Ninapatel.PNG',
     quote: '“Hafsa’s expertise in 3D animations and video editing brought our marketing videos to a new level of engagement. Highly recommend her!”',
     name: 'Nina Patel',
     role: 'Marketing Head, VisualMedia',

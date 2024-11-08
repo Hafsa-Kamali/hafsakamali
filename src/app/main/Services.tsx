@@ -58,7 +58,7 @@ const Services = () => {
               <ServiceCard image="/support.png" title="24/7 Support" description="Welcome to our blog, where round-the-clock dedication is our promise! Discover how our 24/7 availability ensures your needs are always met, no matter the hour. Let's keep your projects running smoothly, every step of the way!"/>
             </div>
             <div className="hover:service_card transform hover:scale-105 transition-all duration-300 bg-primary rounded-xl p-4">
-              <ServiceCard image="/work on time.png" title="Work On Time" description="Welcome to our blog, where punctuality is our promise! Discover how our commitment to top-tier quality and unwavering deadlines transforms visions into reality.Let's bring your visions to life, right on schedule!"/>
+              <ServiceCard image="/work on time.PNG" title="Work On Time" description="Welcome to our blog, where punctuality is our promise! Discover how our commitment to top-tier quality and unwavering deadlines transforms visions into reality.Let's bring your visions to life, right on schedule!"/>
             </div>
            </div>
      

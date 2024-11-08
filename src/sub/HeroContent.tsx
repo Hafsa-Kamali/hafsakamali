@@ -61,7 +61,7 @@ const HeroContent = () => {
          <button
          type='button'
             className="py-2 px-4 md:py-3 md:px-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[160px] md:max-w-[200px] bg-gradient-to-r from-purple-500 to-cyan-500"
-          > <Link href = "/Contact" className='cursor-pointer'>
+          > <Link href = "https://drive.google.com/file/d/1TDWwyxagV3XWKWlTjCTBnIiOwI8K0egc/view?usp=drive_link" className='cursor-pointer'>
             Hire me
             </Link>
         </button>
